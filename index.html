@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wowak Farms</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Sanchez:400italic,400' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<body>
+
+	<div id="wrapper">
+		<div id="homeMainContainer">
+			<div id="welcome">
+			
+	<img id="logo" onclick="changeImage()" src="images/logo-nobg.png">
+
+<script>
+            var image =  document.getElementById("logo");
+
+            function changeImage()
+            {
+                if (image.getAttribute('src') == "images/logo-nobg.png")
+                {
+                    image.src = "images/colorlogo.png";
+                }
+                else
+                {
+                    image.src = "images/logo-nobg.png";
+                }
+            }
+        </script>
+
+			</div>
+			<div id="homeNav">
+				<ul>
+					<li class="circles"><a href="index.html">home</a></li>
+					<li class="circles"><a href="about.html"> about</a></li>
+					<li class="circles"><a href="contact.html">contact</a></li>
+					<li class="circles"><a href="gallery.html">gallery</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+
+

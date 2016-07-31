@@ -1,0 +1,148 @@
+/*START CSS RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*END CSS RESET*/
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+html { 
+  background: url(images/corn.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#wrapper {
+	width: 100%;
+	float: left;
+	font-family: "Sanchez", sans-serif;
+}
+#welcome {
+	margin-top: 10.6%;
+	margin-bottom: 35px;
+}
+
+}
+#homeMainContainer {
+	width: 90%;
+	margin: 0 auto;
+}
+#homeNav, #welcome, #wrapper {
+	text-align: center;
+}
+ul a {
+	color: white;
+	text-decoration: none;
+}
+
+.circles {
+	font-size: 13pt;
+	line-height: 15pt;
+	display: inline-table;
+	width: 130px;
+	height: 83px;
+	padding-top: 47px;
+	margin: 8px 17px 20px 17px;
+	border-radius: 100px;
+	background-color: #367c2b;
+}
+
+.circles:hover {
+	background: url(images/WF.jpg) center center no-repeat;
+	background-size: 85px;
+	background-color: #fff;
+}
+
+#text {
+	margin: 20px;
+	font-family: "Sanchez", sans-serif;
+}
+
+h2 {
+	font-size: 30px;
+	font-family: "Sanchez", sans-serif;
+	margin: 10px;
+	padding: 10px;
+}
+
+#sig {
+	padding-left: 10px;
+	margin-left: 10px;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	font-family: "Sanchez", sans-serif;
+}
+
+#wow {
+	padding: 10px;
+	margin: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	font-family: "Sanchez", sans-serif;
+}
+
+#contact {
+	font-family: "Sanchez", sans-serif;
+	margin: 20px;
+	padding: 20px;
+	color: black;	
+}
+
+
+@media (max-width: 530px){
+	#welcome{
+		max-width: 30%;
+		max-height: 30%;
+	}	
+}
+
+
